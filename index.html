@@ -1,0 +1,91 @@
+<!DOCTYPE>
+<html>
+<title> CS FA </title>
+<body>
+  <form id="Signup">
+     <fieldset form="signup">
+     <legend> Sign up </legend>
+
+	     <label for="Name">Name:</label>
+		 <input type="text" id="Name" name="Name" required><br><br>
+		 
+		 <label for="userName">Preferred Username:</label>
+		 <input type="text" id="userName" name="userName" required><br><br>
+		 
+		 <label for="pword">Password:</label>
+		 <input type="password" id="pword" name="pword" required><br><br>
+		 
+		 <label for="confirmpword">Confirm Password:</label>
+		 <input type="password" id="confirmpword" name="confirmpword" required><br><br>
+		 
+		 <label for="Email">Email:</label>
+		 <input type="email" id="Email" name="Email" required><br><br>
+		 
+		 <label for="address">Address:</label>
+		 <input type="text" id="address" name="address" required ><br><br>
+		 
+		 <label for="interests">Your interests:</label>
+		 <textarea id="interests" name="interests" required rows="5" cols="50"></textarea><br><br>
+		 
+		 <input type="submit" value="Submit">
+		 <input type="reset" value="Reset">
+	</fieldset>
+  </form>
+ 
+     <style>
+        
+        body {
+            font-family: century gothic;
+            background-color: #f0f0f0;
+            padding: 40px;
+        }
+        
+        #signup {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        
+        legend {
+            margin-bottom: 20px;
+			font-size: 30px;
+            font-weight: bold;
+            color: #ff59c7;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input[type="text"], input[type="password"], input[type="email"] {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"], input[type="reset"] {
+            width: 100%;
+            padding: 12px;
+            margin-top: 20px;
+            background-color: #ff59c7; 
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+        }
+        
+        input[type="submit"]:hover, input[type="reset"]:hover {
+            background-color: #ff79e5; 
+        }
+        
+        fieldset {
+            border: none;
+        }
+	 </style>
+</body>
+</html>
